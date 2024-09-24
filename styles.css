@@ -1,0 +1,116 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: beige;
+}
+
+/* First Section: Animation and Text */
+#animation-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dd0a0a;
+    position: relative;
+}
+
+.animation-container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+#animation {
+    width: 100%;
+    height: 100%;
+    /* Add your animation code or placeholder here */
+}
+
+.top-word {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 3rem;
+}
+
+.slogan {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+/* FPO Sections */
+.fpo {
+    padding: 50px;
+    background-color: #f0f0f0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Form Section */
+#form-section {
+    padding: 50px;
+    background-color: #ddd;
+    text-align: center;
+}
+
+#form-section form {
+    display: inline-block;
+}
+
+#form-section input {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+#form-section button {
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+/* Footer Section */
+#signature-section {
+    padding: 30px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+#signature-section a {
+    color: #f05;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    .top-word {
+        font-size: 2rem;
+    }
+
+    .slogan {
+        font-size: 1rem;
+    }
+
+    #form-section input {
+        margin: 10px 0;
+    }
+
+    #form-section button {
+        width: 100%;
+    }
+}
